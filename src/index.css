@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mapboxgl-ctrl-attrib-inner,
+.mapboxgl-ctrl-bottom-left{
+    display: none !important;
+}
+
+.mapboxgl-ctrl-bottom-right {
+    top: 50% !important;
+}
